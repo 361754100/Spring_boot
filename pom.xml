@@ -35,6 +35,26 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty</artifactId> <!-- Use 'netty-all' for 4.0 or above -->
+			<version>4.0.0.Alpha8</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<!-- 导入logback日志的jar -->
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>1.2.1</version>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-core</artifactId>
+			<version>1.2.1</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
